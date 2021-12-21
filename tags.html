@@ -4,12 +4,13 @@
     <title>Balises HTML</title> 
     <meta charset="utf-8"> 
   </head> 
+  
   <body> 
 
-    <div>
-      <a href="index.html">Home</a>
-      <a href="moby_dick.html">HTML Tags</a>
-      <a href="tags.html">Moby Dick</a>
+    <div style="text-align: right;">
+      <a href="index.html" style="text-decoration: none; color: blue;">Home</a>
+      <a href="tags.html" style="margin: 0 0 0 10px; text-decoration: none; color: blue;">HTML Tags</a>
+      <a href="moby_dick.html" style="margin: 0 0 0 10px; text-decoration: none; color: blue;">Moby Dick</a>
     </div>
 
     <h1>Balises HTML importantes</h1> 
@@ -68,6 +69,117 @@
         <td>données de tableau</td>
         <td>inclure une cellule de données de tableau</td>
       </tr>
+      <tr>
+        <td><code>header</code></td>
+        <td>header</td>
+        <td>header block element</td>
+        <td>
+          <code>&lt;header&gt;
+            <br>&lt;h5&gt;Title&lt;/h5&gt;
+            <br>&lt;h6&gt;Author&lt;/h6&gt;
+            <br>&lt;/header&gt;
+          </code>
+        </td>
+        <td>
+          <header>
+            <h5>Title</h5>
+            <h6>Author</h6>
+          </header>
+        </td>
+      </tr>
+      <tr>
+        <td><code>div</code></td>
+        <td>division</td>
+        <td>divide block element</td>
+        <td>
+          <code>&lt;div&gt;&lt;p&gt;hi&lt;/p&gt;&lt;/div&gt;
+            <br>&lt;p&gt;there&lt;/p&gt;
+          </code>
+        <td>
+          <div>
+            <p>hi</p>
+          </div>
+            <p>there</p>
+        </td>
+      </tr>
+      <tr>
+        <td><code>ul</code></td>
+        <td>unordered <br>list</td>
+        <td>unnumbered list tag</td>
+        <td>
+          <code>&lt;ul&gt;
+            <br>&lt;li&gt;fuits&lt;/li&gt;
+            <br>&lt;li&gt;veggies&lt;/li&gt;
+            <br>&lt;/ul&gt;
+          </code>
+        </td>
+        <td>
+          <ul>
+            <li>fuits</li>
+            <li>veggies</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td><code>ol</code></td>
+        <td>ordered <br>list</td>
+        <td>numbered list tag</td>
+        <td>
+          <code>&lt;ol&gt;
+            <br>&lt;li&gt;cookies&lt;/li&gt;
+            <br>&lt;li&gt;cream&lt;/li&gt;
+            <br>&lt;/ol&gt;
+          </code>
+        </td>
+        <td>
+          <ol>
+            <li>cookies</li>
+            <li>cream</li>
+          </ol>
+        </td>
+      </tr>
+      <tr>
+
+      <tr>
+        <td><code>html</code></td>
+        <td>Hyper<br>Text<br>Markup<br>Language</td>
+        <td>specifies HTML doc</td>
+        <td><code><html lang="en"><br></html></code></td>
+        <td>result unviewable</d>
+      </tr>
+      <tr>
+        <td><code>head</code></td>
+        <td>header <br>container</td>
+        <td>contains doc data</td>
+        <td><code><head>
+              <br><title>
+              <br><meta charset="utf-8">
+              <br></title>
+              <br></head>
+            </code>
+        </td>
+        <td>result unviewable</td>
+      </tr>
+      <tr>
+        <td><code>body</code></td>
+        <td>body</td>
+        <td>contains doc content</td>
+        <td><code><body>
+          <br><p>Sup?</p>
+          <br></body></code>
+        </td>
+        <td><body><p>Sup?</p></body></td>
+      </tr>
+      <tr>
+          <td><code>meta</code></td>
+          <td>metadata</td>
+          <td>doc data element</td>
+          <td>
+            <code><meta charset="utf-8"></code>
+          </td>
+          <td>result unviewable</td>
+      </tr>  
+        
     </table>
 
     <h2>Inline Elements (Éléments en ligne)</h2>
@@ -115,39 +227,6 @@
         <td><code><code>Voici le code source</code></code></td>
         <td><code>Voici le code source</code></td>
       </tr>
-    </table>
-  
-  <td><code>header</code></td>
-        <td>header</td>
-        <td>header block element</td>
-        <td>
-          <code>&lt;header&gt;
-            <br>&lt;h5&gt;Title&lt;/h5&gt;
-            <br>&lt;h6&gt;Author&lt;/h6&gt;
-            <br>&lt;/header&gt;
-          </code>
-        </td>
-        <td>
-          <header>
-            <h5>Title</h5>
-            <h6>Author</h6>
-          </header>
-        </td>
-      <tr>
-        <td><code>div</code></td>
-        <td>division</td>
-        <td>divide block element</td>
-        <td>
-          <code>&lt;div&gt;&lt;p&gt;hi&lt;/p&gt;&lt;/div&gt;
-            <br>&lt;p&gt;there&lt;/p&gt;
-          </code>
-        <td>
-          <div>
-            <p>hi</p>
-          </div>
-            <p>there</p>
-        </td>
-      </tr>
       <tr>
         <td><code>span</code></td>
         <td>span</td>
@@ -162,45 +241,7 @@
           <p><span>hello</span>there</p>
         </td>
       </tr>
-
-      <tr>
-        <td><code>ul</code></td>
-        <td>unordered <br>list</td>
-        <td>unnumbered list tag</td>
-        <td>
-          <code>&lt;ul&gt;
-            <br>&lt;li&gt;fuits&lt;/li&gt;
-            <br>&lt;li&gt;veggies&lt;/li&gt;
-            <br>&lt;/ul&gt;
-          </code>
-        </td>
-        <td>
-          <ul>
-            <li>fuits</li>
-            <li>veggies</li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td><code>ol</code></td>
-        <td>ordered <br>list</td>
-        <td>numbered list tag</td>
-        <td>
-          <code>&lt;ol&gt;
-            <br>&lt;li&gt;cookies&lt;/li&gt;
-            <br>&lt;li&gt;cream&lt;/li&gt;
-            <br>&lt;/ol&gt;
-          </code>
-        </td>
-        <td>
-          <ol>
-            <li>cookies</li>
-            <li>cream</li>
-          </ol>
-        </td>
-      </tr>
-      <tr>
-        <td><code>li</code></td>
+      <td><code>li</code></td>
         <td>list</td>
         <td>list element</td>
         <td>
@@ -217,7 +258,48 @@
           </ul>
         </td>
       </tr>
-      
     </table>
+
+<!-- 
+
+<table>
+      <tr>
+        <th style="padding: 10px";>Tag</th>
+        <th style="padding: 10px";>Name</th>
+        <th style="padding: 10px";>Purpose</th>
+      </tr>
+      <tr>
+        <td style="padding: 10px";><code>h1</code>–<code>h6</code></td>
+        <td style="padding: 10px";>headings</td>
+        <td style="padding: 10px";>include a heading (levels 1–6)</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px";><code>p</code></td>
+        <td style="padding: 10px";>paragraph</td>
+        <td style="padding: 10px";>include a paragraph of text</td>
+      </tr>
+      <tr>
+        <td><code>table</code></td>
+        <td>table</td>
+        <td>include a table</td>
+      </tr>
+      <tr>
+        <td><code>tr</code></td>
+        <td>table row</td>
+        <td>include a row of data</td>
+      </tr>
+      <tr>
+        <td><code>th</code></td>
+        <td>table header</td>
+        <td>make a table header</td>
+      </tr>
+      <tr>
+        <td><code>td</code></td>
+        <td>table data</td>
+        <td>include a table data cell</td>
+      </tr>
+    </table>
+ -->
+
   </body> 
 </html>
